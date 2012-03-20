@@ -379,3 +379,26 @@ supports flash messages as well, take a look:
     }
     
 Yeah, you like it?
+
+## Templates
+
+Ok, so now guys you probably want to render something, right?
+Yeah, go standard library contains "html/template" package with some
+super simple and efficient templating. Here's some trivial example
+of usage:
+
+    import "html/template"
+    ...
+    t, err := template.New("foo").Parse(
+        `{{define "T"}}Hello, {{.}}!{{end}}`)
+    err = t.ExecuteTemplate(out, "T", 
+         "<script>alert('you have been pwned')</script>")
+
+But to be hones, I have no clue how it works because I was never
+using it. I strongly believe that there's no sense in building
+full stack applications in Go the way we used to do this in Ruby,
+simply because of it's static typing. I think that instead we
+can build APIs in Go and consume them from JavaScript, for example
+using Backbone. This way we can use power of both languages for 
+their most comfortable use cases. Also, we can offload our application
+a little bit to the client side.

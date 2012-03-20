@@ -41,7 +41,7 @@
 # Mate
 
 !SLIDE
-# Cubox
+# Cubox!
 
 !SLIDE
 # www.cuboxlabs.com
@@ -299,7 +299,25 @@
     }
 
 !SLIDE
-# Summary
+# Templates
+
+!SLIDE
+
+    import "html/template"
+    ...
+    t, err := template.New("foo").Parse(
+        `{{define "T"}}Hello, {{.}}!{{end}}`)
+    err = t.ExecuteTemplate(out, "T", 
+         "<script>alert('you have been pwned')</script>")
+
+!SLIDE
+# Go in real life?
+
+!SLIDE
+# nu7hatch/golaroid
+
+!SLIDE
+# webrocket/webrocket
 
 !SLIDE
 # Questions
