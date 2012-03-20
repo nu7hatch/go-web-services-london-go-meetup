@@ -1,5 +1,64 @@
+!SLIDE
+# Hello!
+
+!SLIDE
+# Krzysztof Kowalik
+
+!SLIDE
+# Call me Chris...
+
+!SLIDE
+# @nu7hatch
+
+!SLIDE
+# www.nu7hat.ch
+
+!SLIDE small
+# www.areyoufuckingcoding.me
+
+!SLIDE
+# Poland...
+
+!SLIDE
+# ...Uruguay
+
+!SLIDE
+# Cows
+
+!SLIDE
+# Gauchos
+
+!SLIDE
+# Beef
+
+!SLIDE
+# Tango
+
+!SLIDE
+# Football
+
+!SLIDE
+# Mate
+
+!SLIDE
+# Cubox
+
+!SLIDE
+# www.cuboxlabs.com
+
+!SLIDE
+# Presents!
+
 !SLIDE 
-# Go for Web-services
+# Go for web-services
+
+!SLIDE bullets incremental
+# Why Go?
+
+* Performance
+* Memory consumption
+* Undetected bugs
+* Scalability
 
 !SLIDE
 # Hello World!
@@ -238,3 +297,15 @@
 
         session.Save(r, w)
     }
+
+!SLIDE
+# Summary
+
+!SLIDE
+# Questions
+
+!SLIDE
+# Thanks!
+
+!SLIDE
+# Presents, yay!
