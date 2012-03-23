@@ -283,9 +283,6 @@
     }
 
 !SLIDE
-# Full stack apps?
-
-!SLIDE
 # Flash messages
 
 !SLIDE
@@ -316,6 +313,9 @@
         `{{define "T"}}Hello, {{.}}!{{end}}`)
     err = t.ExecuteTemplate(out, "T", 
          "<script>alert('you have been pwned')</script>")
+
+!SLIDE
+# Full stack apps?
 
 !SLIDE
 # Go in real life?
