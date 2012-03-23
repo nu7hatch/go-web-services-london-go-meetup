@@ -394,7 +394,7 @@ of usage:
     err = t.ExecuteTemplate(out, "T", 
          "<script>alert('you have been pwned')</script>")
 
-But to be hones, I have no clue how it works because I was never
+But to be honest, I have no clue how it works because I was never
 using it. I strongly believe that there's no sense in building
 full stack applications in Go the way we used to do this in Ruby,
 simply because of it's static typing. I think that instead we

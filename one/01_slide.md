@@ -257,6 +257,9 @@
 # Gorilla
 
 !SLIDE
+# Sessions
+
+!SLIDE
 
     @@@ cpp
     import (
@@ -280,7 +283,10 @@
     }
 
 !SLIDE
-# Sessions
+# Full stack apps?
+
+!SLIDE
+# Flash messages
 
 !SLIDE
 
@@ -303,6 +309,7 @@
 
 !SLIDE
 
+    @@@ cpp
     import "html/template"
     ...
     t, err := template.New("foo").Parse(
